@@ -1,0 +1,118 @@
+
+    /*font from Google fonts: https://fonts.google.com/specimen/Pacifico?category=Handwriting&preview.text=June&preview.text_type=custom*/
+    @font-face{
+        font-family: journalfont;
+        src: url(Pacifico/Pacifico-Regular.ttf);
+    }
+
+#container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    padding-left: 60px;
+    overflow: hidden;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: journalfont, "Pacifico", serif;
+    color: black;
+    background-color: peachpuff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#leftpage, #rightpage{
+    width: 47%;
+    background-color: floralwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 950px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px #9D9A99;
+}
+#moodlog{
+    border: 2px dashed black;
+    height: 240px;
+   box-shadow: 10px gray;
+}
+
+#leftpage{
+    float: left;
+    margin-right: 0;
+}
+
+#rightpage{
+    float: left;
+    margin-left: 0;
+}
+#control{
+    height: 300px;
+    background-color: floralwhite;
+    margin: 10px auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+nav{
+    background-color: floralwhite;
+    width: 100%;
+    position: fixed;
+    z-index: 400;
+    display: block;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin-bottom: 30px;
+    top: 0;
+}
+a:link{
+    text-decoration: none;
+}
+.navtext{
+    float: left;
+    color: gray;
+    margin: 2px auto;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+h3.navtext{
+    padding-bottom: 0;
+    float: right;
+    
+}
+#spawn{
+    border: 2px dashed gray;
+    width: 550px;
+    height: 250px;
+    margin: 15px;
+    overflow: auto;
+    float: left;
+}
+form.control{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.textbox{
+    border: 5px dashed black;
+    width: 250px;
+    height: 150px;
+}
+ .text{
+    position: absolute;
+    z-index: 20;
+}
+/*https://www.w3schools.com/howto/howto_css_clearfix.asp*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*image from https://pngtree.com/freepng/blank--cover-isolated-vector-illustration-isolated-on-gray-background-empty-white-mock-up-template-for-design_5205412.html*/
